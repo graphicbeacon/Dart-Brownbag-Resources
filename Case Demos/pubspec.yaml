@@ -1,0 +1,4 @@
+name: dart_case_demos
+description: A showcase of demos based on the Dart programming language.
+dependencies:
+  browser: any
