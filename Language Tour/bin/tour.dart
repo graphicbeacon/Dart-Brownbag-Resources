@@ -1,10 +1,10 @@
 class Person {
   String _name; // preceding underscore makes field private
   int _yearOfBirth;
-  int _nationality;
+  String _nationality;
   
   // Shorthand constructors with optinal named parameter
-  Person(this._name, this._yearOfBirth, {nationality: 'unknown'}){
+  Person(this._name, this._yearOfBirth, {String nationality: 'unknown'}){
       if(nationality != 'unknown') _nationality = nationality; 
   }
   
